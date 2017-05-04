@@ -9,9 +9,10 @@ import org.springframework.ui.ModelMap;
 @Controller
 public class WebAppController{
  
-   @RequestMapping("/hello")
-   public ModelAndView printHello(ModelMap model) {
-	  String message = "Spring MVC!";
-      return new ModelAndView("helloPage", "message", message);
-   }
+    @RequestMapping("/hello")
+    public ModelAndView printHello(ModelMap model) {
+	    String message = "Spring MVC!";
+        return new ModelAndView("helloPage", "message", message);
+    }
 }
+   

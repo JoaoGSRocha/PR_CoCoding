@@ -4,6 +4,6 @@
 <title>Spring MVC</title>
 </head>
 <body>
-   <h2>${message}</h2>
+    <h2>${message}</h2>
 </body>
 </html>
