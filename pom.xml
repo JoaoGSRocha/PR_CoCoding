@@ -8,10 +8,17 @@
   <name>WebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+<<<<<<< test
 	<dependency>
 		<groupId>javax.servlet</groupId>
 		<artifactId>servlet-api</artifactId>
 		<version>2.5</version>
+=======
+  	<dependency>
+		<groupId>jstl</groupId>
+		<artifactId>jstl</artifactId>
+		<version>1.2</version>
+>>>>>>> local
 	</dependency>
     <dependency>
 		<groupId>junit</groupId>
